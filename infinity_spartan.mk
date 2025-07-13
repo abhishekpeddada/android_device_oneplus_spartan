@@ -15,6 +15,9 @@ $(call inherit-product, device/oneplus/spartan/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
+# Camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 PRODUCT_NAME := infinity_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := OnePlus
