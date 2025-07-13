@@ -7,3 +7,9 @@ ro.crypto.volume.metadata.method=dm-default-key
 
 # USB
 vendor.usb.product_string=realme GT NEO 3T
+
+# Infinity-X Props
+ro.infinity.soc=Snapdragon®870
+ro.infinity.battery=5000mAh
+ro.infinity.display=2400x1080, 120Hz
+ro.infinity.camera=64MP + 8MP + 2MP, 16MP
